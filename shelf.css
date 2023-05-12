@@ -6,6 +6,7 @@ html{
 body{
     font-family: 'Amatic SC', cursive;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     background-color: rgb(218, 218, 190);
@@ -30,3 +31,12 @@ margin: 5px 0 15px 0;
     background: red;
 }
 
+#button{
+    color: aliceblue;
+    background-color: rgb(19, 19, 18);
+}
+
+#button:active{
+    color: rgb(12, 12, 12);
+    background-color: rgb(233, 233, 224);
+}
