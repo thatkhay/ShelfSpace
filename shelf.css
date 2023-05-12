@@ -25,10 +25,12 @@ margin: 5px 0 15px 0;
 
 .success{
     background: green;
+    text-align: center;
 }
 
 .error{
     background: red;
+    text-align: center;
 }
 
 #button{
