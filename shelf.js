@@ -69,10 +69,9 @@ if (title === '' || isbn === '' || author === '') {
     ui.showAlert('Book added', 'success');
     ui.clearFields();
 }
-
-
     e.preventDefault();
 });
+
 
 document.getElementById('book-list').addEventListener('click', function(e){
 
